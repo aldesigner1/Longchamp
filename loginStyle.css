@@ -1,0 +1,190 @@
+/* #272A37 /**Fond gris fonce**
+#3D404B /**Fond gris fonce hover**
+#1D90F5 /**Bleu*
+**/
+
+
+body{
+  width: 100%;
+  height: 100vh;
+  background: url("images/cascade.jpeg") no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-family: "poppins";
+  margin: 0 !important;
+  padding: 0 !important;
+
+}
+
+.filter{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(45deg, rgb(39,42,55,1) 50%, rgb(39,42,55,0.5));
+}
+
+.lefty{
+  width: 600px;
+  height: 80vh;
+  background: transparent;
+  /* border: 1px solid #000; */
+  margin: 0 100px !important;
+  padding: 40px 55px !important;
+  border-radius: 15px;
+}
+
+h2{
+  color: #939EAD;
+  text-transform: uppercase;
+  font-size: 13px;
+  /* margin: 0px !important; */
+}
+
+h1{
+  color: #fff;
+  font-size: 45px;
+  text-transform: capitalize;
+  margin: 0px !important;
+
+}
+
+h3{
+  color: #939EAD;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+h3 a{
+  color: #1284ee;
+}
+
+form{
+  margin-top: 100px;
+}
+
+.container{
+  position: relative;
+  width: 300px;
+  height: 50px;
+  margin: 35px 0px !important;
+
+}
+
+.container label{
+  position: absolute;
+  left: 20px;
+  top: 5px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: #aaa;
+}
+
+input, select{
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background: #323644;
+  border: none;
+  padding: 10px 20px 0px !important;
+  font-size: 16px;
+  color: #fff;
+  border: 2px solid transparent;
+}
+
+input::placeholder{
+  color: #aaa;
+}
+
+select{
+  height: 60px;
+  width: 340px;
+  padding: 10px 20px 0 10px;
+}
+
+input:hover, select:hover{
+  background: #3D404B;
+  border: 2px solid #1D90F5;
+}
+
+.container:hover label{
+  color: #1D90F5;
+}
+
+input:focus, select:focus{
+  outline-color: #1D90F5;
+  outline: none;
+}
+
+.container button, .container a{
+  height: 40px;
+  width: 200px;
+  background: #1D90F5;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+#btner{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 340px;
+}
+
+#reset{
+  width: 100px !important;
+  background: gray;
+  display: inline-block;
+}
+
+#reset:hover{
+  background: #3D404B;
+  color: gray;
+}
+
+button:hover, a:hover{
+  color: #43FAFE;
+  background: #0E72ED;
+  cursor: pointer;
+  box-shadow: 2px 2px 13px #1E202B;
+
+}
+
+.righty{
+  border: 2px dotted gray;
+  border-radius: 20px;
+  width: 600px;
+  height: 80vh;
+  margin-right: 100px;
+  opacity: 0.9;
+  background: url("images/cascade.jpeg");
+  box-shadow: 15px 15px 35px #222;
+  background-position: 70% 10%;
+}
+
+.righty:hover{
+  opacity: 1;
+  transition: 0.5s ease-in;
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px #0E72ED;
+}
+
+
+
+
+
+
+
+
+/** END  **/

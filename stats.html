@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="https://unpkg.com/charts.css/dist/charts.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css"/>
+    <link rel="stylesheet" href="statsStyle.css"/>
+    <script src="sortby.js">
+    </script>
+    <title>Stats</title>
+  </head>
+  <body>
+    <section class="laterale">
+        <p><a href="home.html"><</a> Menu Masqué</p>
+    </section>
+    <section class="centrale">
+
+      <div class="filtrage card">
+        <select class="timing" name="">
+          <option value="">--Filtrer par--</option>
+          <option value="">Heure</option>
+          <option value="">Jour</option>
+          <option value="">Semaine</option>
+          <option value="">Mois</option>
+        </select>
+        <form class="" action="index.html" method="post">
+          <input type="text" name="" value="" placeholder="Rechercher un élément"/>
+          <button type="submit" name="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg></button>
+        </form>
+
+      </div>
+      <div class="chart card">
+        <ul class="charts-css legend legend-circle">
+          <li> Ciment </li>
+          <li> Fer </li>
+        </ul>
+        <table class="charts-css area show-heading multiple show-primary-axis show-8-secondary-axes show-labels" id="my-chart">
+           <caption> Evolution des quantités </caption>
+          <tbody>
+            <tr>
+              <th scope="row">Lundi</th>
+              <td style="--start: 0.2; --size: 0.4"> <span class="data">   </span> </td>
+              <td style="--start: 0.5; --size: 0.4"> <span class="data">    </span> </td>
+            </tr>
+            <tr>
+              <th scope="row">Mardi</th>
+              <td style="--start: 0.4; --size: 0.8"> <span class="data">   </span> </td>
+              <td style="--start: 0.4; --size: 0.3"> <span class="data">    </span> </td>
+            </tr>
+            <tr>
+              <th scope="row">Mercredi</th>
+              <td style="--start: 0.8; --size: 0.6"> <span class="data">    </span> </td>
+              <td style="--start: 0.3; --size: 0.8"> <span class="data">    </span> </td>
+            </tr>
+            <tr>
+              <th scope="row">Jeudi</th>
+              <td style="--start: 0.6; --size: 1.0"> <span class="data">  </span> </td>
+              <td style="--start: 0.8; --size: 0.4"> <span class="data">    </span> </td>
+            </tr>
+            <tr>
+              <th scope="row">Vendredi</th>
+              <td style="--start: 1.0; --size: 0.3"> <span class="data">  </span> </td>
+              <td style="--start: 0.4; --size: 0.0"> <span class="data">    </span> </td>
+            </tr>
+          </tbody>
+
+        </table>
+
+      </div>
+      <div class="listing card">
+        <label for="">Choisissez un projet à évaluer</label>
+        <ul id="ProjectList">
+          <li><a href="">Ngousso</a></li>
+          <li><a href="">Obam</a></li>
+          <li><a href="">Biyemassi</a></li>
+          <li><a href="">Etoug Ebe</a></li>
+          <li><a href="">Etoudi</a></li>
+          <li><a href="">Emana</a></li>
+          <li><a href="">Ngoa Ekele</a></li>
+          <li><a href="">Obam</a></li>
+          <li><a href="">Biyemassi</a></li>
+          <li><a href="">Etoug Ebe</a></li>
+          <li><a href="">Etoudi</a></li>
+          <li><a href="">Emana</a></li>
+          <li><a href="">Ngoa Ekele</a></li>
+          <li><a href="">Biyemassi</a></li>
+          <li><a href="">Etoug Ebe</a></li>
+          <li><a href="">Etoudi</a></li>
+          <li><a href="">Emana</a></li>
+          <li><a href="">Ngoa Ekele</a></li>
+          <li><a href="">Obam</a></li>
+          <li><a href="">Biyemassi</a>
+        </ul>
+      </div>
+      </section>
+  </body>
+</html>
